@@ -60,7 +60,7 @@ the median of x is `r median(x)`
 
 the standard deviation of x is `r sd(x)`
 
-the proportion of cases for which x + y > 1 is `r length(log_pro2[[TRUE]])/length(x)`
+the proportion of cases for which x + y > 1 is `r sum(log_pro2)/length(x)`
 
 ```{r}
 #Make a scatterplot
